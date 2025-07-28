@@ -4,15 +4,78 @@
   | default @import url()
   |============================
 */
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inp-cont {
+  margin-bottom: 32px;
+}
+#datetime-picker {
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 0 0 0 16px ;
+}
+
+#datetime-picker:hover {
+  border-color: #000000;
+}
+
+#datetime-picker:focus {
+  border-color: #4E75FF;
+  outline: none;
+}
+
+#datetime-picker:disabled {
+  background: #fafafa;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #4e75ff;
+  color: #fff;
+}
+
+.btn:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+
+.btn:hover {
+  background: #6c8cff;
+}
+
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 55px;
+  height: 72px;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+
