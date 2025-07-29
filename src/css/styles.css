@@ -79,3 +79,80 @@ body {
   color: #2e2f42;
 }
 
+
+.delay-ms {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.delay-input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.delay-input:hover {
+  border-color: #000000;
+}
+
+.delay-input:focus {
+  border-color: #4E75FF;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxik {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 336px;
+  height: 78px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.boxik:hover {
+  border-color: #000000;
+}
+
+.boxik-inp {
+  border: 1px solid #4e75ff;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+
+.btn-sub {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+}
+
+.btn-sub-sp {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-sub:hover {
+  background-color: #6c8cff;
+}
